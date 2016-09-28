@@ -21,43 +21,44 @@ keypoints:
 - "Measures taken to improve accessibility aid everyone."
 ---
 
-In order for learners to step out into new and familiar terrain, they will
-need encouragement.  This section discusses typical ways that
-learners are motivated (and can be demotivated!) and describes ways that communities
-of practice can be welcoming (or threatening) to new members.
+In order for learners to step out into new and familiar terrain, they will need encouragement. This section discusses typical ways that learners are motivated or demotivated and describes ways that communities of practice can be welcoming or threatening) to new members.
 
-## Motivation
+## What motivates learners?
 
-People learn best when they care about the topic and believe they can master it.
-This presents us with a problem
-because most scientists don't want to program:
-they want to do science,
-and rightly regarding programming as a tax they have to pay in order to do so.
-In addition,
-their early experiences with programming are often demoralizing,
-and believing that something will be hard to learn is a self-fulfilling prophecy.
+Why do most people sign up for software carpentry workshops? Probably because they see that its relevant for their current or future profession lives. That's awesome, and I think it might be one of the reasons why our teachers really enjoy teaching for us. 
 
-Imagine a grid whose axes are labelled "mean time to master" and "usefulness once mastered".
-Everything that's quick to master, and immediately useful should be taught first;
-things in the opposite corner
-that are hard to learn and have little near-term application
-don't belong in this course.
+But, once learners enter the classroom, how do we keep theme motivated?
+
+*[How Learning Works][amazon-hlw]* contains this list of evidence-based methods to motivate learners. Let's visit a few of these at a time
+
+### Strategies that Build Positive Expectancies
+
+People learn best when they care about the topic and *believe they can master it*. We want students to build postive expectancies that reflect the belief that specific actions will bring about a desired outcome. "If learn how to read man pages for simple programs, I can apply that to more complex programs that I use in my research.  
+
+How can we ensure students belive they can master what we are teaching?  We can *provide early success opportunities* by creating assignments that provide the *appropriate level of challenge*.
+
+Imagine a grid whose axes are labelled "mean time to master" and "usefulness once mastered". When teaching novice, where should the teacher focus their attention? When teaching experts? Everything that's quick to master, and immediately useful should be taught first; things in the opposite corner that are hard to learn and have little near-term application don't belong in this course.
 
 ![What to Teach](../fig/what-to-teach.png)
 
 > ## Actual Time
 >
-> Any useful estimate of how long something takes to master must take into account
-> how frequent failures are
-> and how much time is lost to them.
-> For example,
-> editing a text file seems like a simple task,
-> but most graphical editors save things to the user's desktop or home directory.
-> If people need to run shell commands on the files they've edited,
-> a substantial fraction won't be able to navigate to the right directory without help.
-> If this seems like a small problem to you,
-> please revisit the discussion of [expert blind spot]({{ page.root }}/08-memory/).
+> Any useful estimate of how long something takes to master must take into account how frequent failures are and how much time is lost to them.
+> For example, editing a text file seems like a simple task, but most graphical editors save things to the user's desktop or home directory.
+> If people need to run shell commands on the files they've edited, a substantial fraction won't be able to navigate to the right directory without help.
+> If this seems like a small problem to you, please revisit the discussion of [expert blind spot]({{ page.root }}/08-memory/).
+> Can you count how many times you've slaved away trying to fix a bug in your code only to realized that you were in the wrong directory?
 {: .callout}
+
+> ## Authentic Tasks: Think, Pair, Share
+>
+> **Think** about something you did this week that uses one or more of the skills we teach,
+> (e.g. wrote a function, bulk downloaded data, did some stats in R, forked a repo)
+> and explain how you would use it (or a simplified version of it) as an exercise or example in class.
+> **Pair** up with your neighbor and decide where this exercise fits on a 2x2 grid of "short/longtime to master" and "low/high usefulness"?
+> In the class Etherpad, **share** the task and where it fits on the 2x2 grid.
+> As a group, we will discuss how these relate back to our "teach most immediately useful first" approach.
+{: .challenge}
 
 Many of the foundational concepts of computer science,
 such as computability,
@@ -75,6 +76,10 @@ it also helps build their confidence in us,
 so that if it takes longer to get to the payoff of a later topic,
 they'll stick with us.
 
+### Strategies to establish value
+
+Students typically are more motived to engage with material that interest them. This doesn't necessarily mean that the work must be from the same domain. Providing real-world *authentic tasks* is a great way to establish value.
+
 Perhaps the best-studied use of this idea is
 the *[media computation]({{ page.root }}/files/papers/guzdial-mediacomp-retrospective-2013.pdf)* approach
 developed by Guzdial and Ericson at Georgia Tech.
@@ -89,26 +94,9 @@ It is also *tangible*:
 if the image comes out the wrong size,
 learners have a concrete starting point for debugging.
 
-> ## Authentic Tasks: Think, Pair, Share
->
-> **Think** about something you did this week that uses one or more of the skills we teach,
-> (e.g. wrote a function, bulk downloaded data, did some stats in R, forked a repo)
-> and explain how you would use it (or a simplified version of it) as an exercise or example in class.
-> **Pair** up with your neighbor and decide where this exercise fits on a 2x2 grid of "short/longtime to master" and "low/high usefulness"?
-> In the class Etherpad, **share** the task and where it fits on the 2x2 grid.
-> As a group, we will discuss how these relate back to our "teach most immediately useful first" approach.
-{: .challenge}
+Additionally, you or your helpers can provide some real world applications for the topics just covered. 
 
-## Strategies for Motivating Learners
-
-*[How Learning Works][amazon-hlw]*
-contains this list of evidence-based methods to motivate learners.
-None of them are surprising ---
-it's hard to imagine someone saying that we *shouldn't* identify and reward what we value ---
-but it's useful to check lessons against these points
-to make sure they're doing at least a few of these things.
-
-> ## Provide an Example
+> ## Provide an Example: Grep
 >
 > Insert a personal story here about how you establish value in the classroom.
 > Or, use Rayna's personal story, which goes like this:
@@ -122,6 +110,30 @@ to make sure they're doing at least a few of these things.
 > using an authentic task that is relevant to their research.
 {: .callout}
 
+### Strategies for self-efficacy
+
+    1.  Provide flexibility and control.
+    2.  Give students an opportunity to reflect.
+    
+When it comes time for challenge questions, instructors are encouraged to provide post three question: one easy, one medium, and one hard. This easy one give all learns a task that they can work on to see if they understand the topic. The next to give more advanced learners the opportunity to tackel a more complex challenge. 
+
+The sticky notes are not only an opportunity for the teachers to see what's working or not, but it gives the students a moment to process everything they have learned that day and take stock. This is frequently a highlight of the workshop for many learners.  
+ 
+> ## Learning Sideways
+>
+> The phrase *lateral knowledge transfer* is sometimes used to describe what happens when someone intended to teach one thing, but their audience learned another along the way. For example, an instructor might set out to show people how to do a particular statistical analysis in R, but what her learners might take away is some new keyboard shortcuts in R Studio. Live coding makes this much more likely because it allows learners to see the "how" as well as the "what".
+{: .callout}
+
+> ## Brainstorming Motivational Strategies
+>
+> *Think* back to a computational (or other) course you took in the past, and
+> identify one thing the instructor did that motivated you.
+> *Pair* up with your neighbor and discuss what motivated you.
+> *Share* the motivational story in the Etherpad.
+{: .challenge}
+
+### The Full List of Evidence-based Methods to Motivate Learners
+
 *   Strategies to establish value:
     1.  Connect the material to students' interests.
     2.  Provide authentic, real-world tasks.
@@ -129,6 +141,7 @@ to make sure they're doing at least a few of these things.
     4.  Demonstrate the relevance of higher-level skills to students' future professional lives.
     5.  Identify and reward what you value.
     6.  Show your own passion and enthusiasm for the discipline.
+
 *   Strategies to build positive expectations:
     1.  Ensure alignment of objectives, assessments, and instructional strategies.
     2.  Identify an appropriate level of challenge.
@@ -140,17 +153,11 @@ to make sure they're doing at least a few of these things.
     8.  Be fair.
     9.  Educate students about the ways we explain success and failure.
     10. Describe effective study strategies.
+
 *   Strategies for self-efficacy:
     1.  Provide flexibility and control.
     2.  Give students an opportunity to reflect.
 
-> ## Brainstorming Motivational Strategies
->
-> *Think* back to a computational (or other) course you took in the past, and
-> identify one thing the instructor did that motivated you.
-> *Pair* up with your neighbor and discuss what motivated you.
-> *Share* the motivational story in the Etherpad.
-{: .challenge}
 
 > ## Not Just Learners
 >
@@ -485,3 +492,14 @@ are always welcome.
 [wikipedia-impostor-syndrome]: https://en.wikipedia.org/wiki/Impostor_syndrome
 [wikipedia-screen-reader]: https://en.wikipedia.org/wiki/Screen_reader
 [wikipedia-stereotype-threat]: https://en.wikipedia.org/wiki/Stereotype_threat
+
+
+## keypoints
+- "People learn best when they are intrinsically motivated."
+- "The two biggest demotivators are indifference and unfairness."
+- "Teach what's most immediately useful first in order to gain learners' trust."
+- "Be careful not to remind learners of negative stereotypes when teaching."
+- "We're all faking it."
+- "Don't teach or learn alone."
+- "Belief that competence comes with practice improves learning outcomes."
+- "Measures taken to improve accessibility aid everyone."
