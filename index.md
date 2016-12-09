@@ -42,6 +42,8 @@ reflects the latest iteration of an ongoing process to refine what new
 instructors need to know.  Feedback is welcome as an [issue][issues]
 on the Github repository that hosts this site.
 
+*   [Workshop Etherpad](http://pad.software-carpentry.org/2016-12-12-ttt-uiuc)
+
 **These materials are freely available under a [Creative Commons license][license].**
 
 [conduct]: {{ site.github.url }}/conduct/
