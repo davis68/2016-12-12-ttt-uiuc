@@ -45,6 +45,8 @@ reflects the latest iteration of an ongoing process to refine what new
 instructors need to know.  Feedback is welcome as an [issue][issues]
 on the Github repository that hosts this site.
 
+*   [Etherpad](http://go.illinois.edu/swcit-pad)
+
 **These materials are freely available under a [Creative Commons license][license].**
 
 [application-form]: https://amy.software-carpentry.org/workshops/request_training/
